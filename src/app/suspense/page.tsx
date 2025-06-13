@@ -10,7 +10,7 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <div>ホームと同様のデータ取得処理を行っています。</div>
         <ErrorBoundary fallback={<div>error</div>}>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div>Suspense Loading...</div>}>
             <GreetingSuspense />
           </Suspense>
         </ErrorBoundary>
