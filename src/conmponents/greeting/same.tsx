@@ -3,7 +3,7 @@
 import { greet } from '@/pbgen/submodules/protobuf/greet/v1/greet-GreetService_connectquery';
 import { useQuery } from '@connectrpc/connect-query';
 
-export const Greeting = () => {
+export const GreetingSame = () => {
   // 取得したデータは 30 秒間キャッシュするように設定
   const { data, isLoading } = useQuery(
     greet,

@@ -20,5 +20,9 @@ export const GreetingCache = () => {
 
   console.log(data);
 
-  return <div>Console Greeting Cache</div>;
+  if (!data) {
+    return <div>Cache data is not found</div>;
+  }
+
+  return <div>Greeting Cache: {data.greeting}</div>;
 };
