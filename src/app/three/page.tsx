@@ -9,6 +9,9 @@ export default function Page() {
       <div>
         <Link href="/three/02-material">&gt; マテリアルとライティング</Link>
       </div>
+      <div>
+        <Link href="/three/03-modeldata">&gt; モデルデータの読み込み</Link>
+      </div>
     </main>
   );
 }
