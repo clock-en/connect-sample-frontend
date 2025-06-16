@@ -1,4 +1,4 @@
-import { Greeting } from '@/conmponents/greeting';
+import { Greeting } from '@/components/greeting';
 import Image from 'next/image';
 import Link from 'next/link';
 
