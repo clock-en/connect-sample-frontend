@@ -7,6 +7,14 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
 const connectTransport = createGrpcWebTransport({
   baseUrl: 'http://localhost:8080',
+  interceptors: [
+    (next) => async (req) => {
+      console.log('Request', req);
+      const res = await next(req);
+      console.log('Response', res);
+      return res;
+    },
+  ],
 });
 
 const queryClient = new QueryClient();
