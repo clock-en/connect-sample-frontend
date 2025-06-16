@@ -1,4 +1,4 @@
-import { GreetingCache } from '@/conmponents/greeting/cache';
+import { GreetingCache } from '@/components/greeting/cache';
 import Image from 'next/image';
 import Link from 'next/link';
 

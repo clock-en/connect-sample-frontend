@@ -1,4 +1,4 @@
-import { GreetingSuspense } from '@/conmponents/greeting/suspense';
+import { GreetingSuspense } from '@/components/greeting/suspense';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Suspense } from 'react';
