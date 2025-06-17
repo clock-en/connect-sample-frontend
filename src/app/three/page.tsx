@@ -12,6 +12,11 @@ export default function Page() {
       <div>
         <Link href="/three/03-modeldata">&gt; モデルデータの読み込み</Link>
       </div>
+      <div>
+        <Link href="/three/04-mouse-event">
+          &gt; オブジェクトとの交差を調べる
+        </Link>
+      </div>
     </main>
   );
 }
