@@ -17,6 +17,11 @@ export default function Page() {
           &gt; オブジェクトとの交差を調べる
         </Link>
       </div>
+      <div>
+        <Link href="/three/05-csm-modeling">
+          &gt; CSM で生成したモデルデータを読み込み
+        </Link>
+      </div>
     </main>
   );
 }
